@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DemoGuru99BankingProject_Manager_Login_OutTest">
+    <test name="Manager ID Login and Log Out Unit And Functional Test: In Chrome: ">
+        <parameter name="Browser" value="chrome"></parameter>
+        <classes>
+            <class name="Project_DemoGuru99Banking.Manager_ID_Login_Out_Reset"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Demo_Guru99_Bank_New_Customer_Module_Test">
+
+    <test name="Edit_Customer_Test_Valid: In Chrome: ">
+        <parameter name="Browser" value="chrome"></parameter>
+        <classes>
+            <class name="Project_DemoGuru99Banking.editCustomerModule"></class>
+        </classes>
+    </test>
+
+    <test name="Edit_Customer_Test_Valid: In Firefox: ">
+        <parameter name="Browser" value="firefox"></parameter>
+        <classes>
+            <class name="Project_DemoGuru99Banking.editCustomerModule"></class>
+        </classes>
+    </test>
+
+</suite>
